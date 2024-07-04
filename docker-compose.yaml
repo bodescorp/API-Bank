@@ -1,0 +1,23 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/home/node/app
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:latest
+    container_name: bank-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: bank
+      POSTGRES_USER: glaymar2010@gmail.com
+      POSTGRES_PASSWORD: nada
+
+
+
