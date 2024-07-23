@@ -213,7 +213,3 @@ Esta aplicação é uma API REST desenvolvida com NestJS para gerenciar o cadast
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Certifique-se de ajustar as informações de acordo com os detalhes específicos da sua aplicação e repositório.
